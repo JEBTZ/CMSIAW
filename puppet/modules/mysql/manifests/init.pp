@@ -21,3 +21,14 @@ class mysql::php5-mysql {
     notify  => Service['php5-fpm']
   }
 }
+
+class mysql {
+  include mysql::install
+
+  file {'/home/vagrant/.my.cnf':
+    owner  => 'vagrant',
+    group  => 'vagrant',
+    mode   => '0700',
+    source => 'puppet:///mysql/.my.cnf'
+  }
+}

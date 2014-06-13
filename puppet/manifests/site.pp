@@ -4,7 +4,7 @@ exec {'apt-update':
 }
 
 class {'git::install': }
-class {'mysql::install': }
+class {'mysql': }
 class {'basics': }
 class {'nginx': }
 class {'php5-fpm': }
