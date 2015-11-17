@@ -1,4 +1,9 @@
 # vagrant-wordpress-lemp
+
+## ATTENTION: development has moved to [vagrant-wordpress](https://github.com/axocomm/vagrant-wordpress)
+
+### This repository will no longer be maintained!
+
 A somewhat reasonable Vagrant setup that might be useful for quick WordPress development environments.
 
 This setup contains the following:
